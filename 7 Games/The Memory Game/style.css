@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#696969;
+    color: antiquewhite;
+    font-size: 37px;
+    letter-spacing: 1px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 380px;
+    width: 500px;
+}
+
+img{
+    padding: 2px;
+}
+
+@media
