@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color:#cacaca;
+    color: #696969;
+    letter-spacing: 1px;
+}
+
+h1, h2 {
+    margin: 3px;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #696969;
+}
+
+.grid{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}   
+
+.mole{
+    background-image: url(bug.png);
+    background-size: cover;
+}
+
+.bang{
+    background-image: url(bang.png);
+}
